@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '/home/bvgo/Dev/cloud-developer/course-02/exercises/udacity-c2-restapi/src/config/.env' });
+require('dotenv').config({ path: '/home/bvgo/.env' });
 import express from 'express';
 import { sequelize } from './sequelize';
 
