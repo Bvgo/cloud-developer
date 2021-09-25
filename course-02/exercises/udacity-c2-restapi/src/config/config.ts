@@ -1,10 +1,8 @@
-export const config = {
-  "dev": {
+export const config = { "dev": {
     "username": process.env.POSTGRESS_USERNAME,
-    "password" : process.env.POSTGRESS_PASSWORD,
+    "password" : process.env.POSTGRESS_PW,
     "database": process.env.POSTGRESS_DB,
     "host": process.env.POSTGRESS_HOST,
-    "port": Number(process.env.POSTGRESS_PORT),
     "dialect": "postgres",
     "aws_region": process.env.AWS_REGION,
     "aws_profile": process.env.AWS_PROFILE,
