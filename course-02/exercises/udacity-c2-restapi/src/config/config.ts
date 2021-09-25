@@ -1,7 +1,6 @@
-export const config = {
-  "dev": {
+export const config = { "dev": {
     "username": process.env.POSTGRESS_USERNAME,
-    "password": process.env.POSTGRESS_PASSWORD,
+    "password" : process.env.POSTGRESS_PW,
     "database": process.env.POSTGRESS_DB,
     "host": process.env.POSTGRESS_HOST,
     "dialect": "postgres",
@@ -20,4 +19,3 @@ export const config = {
     "secret": process.env.JWT_SECRET
   }
 }
-
